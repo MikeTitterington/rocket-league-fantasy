@@ -13,8 +13,8 @@
         DropdownItem
     } from 'sveltestrap';
     import authStore from '../stores/authStore'
-    import firebase from 'firebase/app';
-    import 'firebase/auth'
+    import firebase from '@firebase/app';
+    import '@firebase/auth'
 
     async function logout() {
         try{
