@@ -13,7 +13,7 @@
         DropdownMenu,
         DropdownItem
     } from 'sveltestrap';
-    import 'firebase/auth'
+    import '@firebase/auth'
     import Navigation from '../components/Navigation.svelte'
     import {auth, db} from '../firebase'
     import {onMount} from 'svelte';
